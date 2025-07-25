@@ -1,3 +1,6 @@
-local Folder = game.Workspace.Hausër
+local Screengui = game.Players.LocalPlayer.PlayerGui.Instance:New("ScreenGui")
+Screengui.Parent = game.Players.LocalPlayer.PlayerGui
+Screengui.Name = ("TestGui")
 
-Folder:Destory()
+local frame = game.Players.LocalPlayer.PlayerGui.TestGui.Instance:New("Frame")
+frame.Parent = game.Players.LocalPlayer.PlayerGui.TestGui
